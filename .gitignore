@@ -1,0 +1,10 @@
+# KiCad temporary and local files
+*-backups/
+*.lck
+*.kicad_prl
+*.tmp
+fp-info-cache
+
+# Generated fabrication packages are added only after verification
+Hardware/Gerbers-*/
+Hardware/*.zip
