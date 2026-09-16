@@ -5,7 +5,7 @@
 	(uuid "81bee566-7c30-408d-a7cb-e04c7c6916af")
 	(paper "A5")
 	(title_block
-		(title "CrowdAware Node Rev1.1")
+		(title "HKU Thermal Node Rev1.1")
 		(date "2026-09-16")
 		(rev "1.1")
 		(company "InnoWing IoT Team")
@@ -2169,7 +2169,7 @@
 		(uuid "943635ca-8f3c-45ff-9310-6db3ea3cb5b0")
 	)
 	(no_connect
-		(at 154.94 43.18)
+		(at 154.94 63.5)
 		(uuid "9d052dc1-d8ca-489d-b63a-8afe18270b2e")
 	)
 	(no_connect
@@ -2201,7 +2201,7 @@
 		(uuid "e41b9ecc-2f4d-47da-973f-5f800f806c1e")
 	)
 	(no_connect
-		(at 154.94 45.72)
+		(at 154.94 66.04)
 		(uuid "eb70721e-0910-4128-8e3e-65b67aba7b9a")
 	)
 	(no_connect
@@ -2224,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 154.94 66.04)
+			(xy 152.4 43.18) (xy 154.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 154.94 63.5)
+			(xy 152.4 45.72) (xy 154.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2533,7 @@
 		(uuid "c74dcb2b-9235-4eac-9ecb-0df1fb14575d")
 	)
 	(label "SDA"
-		(at 152.4 63.5 0)
+		(at 152.4 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 		(uuid "9efcd33d-137f-4f98-bd4f-03439f6788b0")
 	)
 	(label "SCL"
-		(at 152.4 66.04 0)
+		(at 152.4 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2736,7 @@
 			(uuid "94485ece-7cd2-4ab1-a1e8-564374f17383")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "J1")
 					(unit 1)
@@ -2829,7 +2829,7 @@
 			(uuid "0ede76b5-1357-440b-9313-15387e569138")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "C1")
 					(unit 1)
@@ -2906,7 +2906,7 @@
 			(uuid "17a9707c-cc97-40a4-96a7-7e886ca7675c")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR07")
 					(unit 1)
@@ -2999,7 +2999,7 @@
 			(uuid "7828c782-a48c-4bc5-acd4-7864ca9a6650")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "R2")
 					(unit 1)
@@ -3076,7 +3076,7 @@
 			(uuid "8638b8c1-ddfe-4b86-92cf-38284b698a2c")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR04")
 					(unit 1)
@@ -3153,7 +3153,7 @@
 			(uuid "5a4e40f7-4f15-455e-bf85-d27c51946159")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR03")
 					(unit 1)
@@ -3246,7 +3246,7 @@
 			(uuid "1e957c67-3fe6-4a8d-b5cc-17fd86fa1b65")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "R1")
 					(unit 1)
@@ -3323,7 +3323,7 @@
 			(uuid "c3491966-10c9-464c-9561-dee890a6468e")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR05")
 					(unit 1)
@@ -3402,7 +3402,7 @@
 			(uuid "115c8e21-7b24-43ee-9632-8fc75f80b88c")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR06")
 					(unit 1)
@@ -3480,7 +3480,7 @@
 			(uuid "ec60ef1b-ae61-4ad7-82a7-828a04d5ccae")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR02")
 					(unit 1)
@@ -3559,7 +3559,7 @@
 			(uuid "963b4a05-2c40-4732-be60-8e430eaa5a26")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "#PWR01")
 					(unit 1)
@@ -3813,7 +3813,7 @@
 			(uuid "7fb8289e-1f20-4bc5-b074-908ee6e2cd3d")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "A1")
 					(unit 1)
@@ -3906,7 +3906,7 @@
 			(uuid "ae436076-d60d-4901-8108-7e1613ac4bc9")
 		)
 		(instances
-			(project "CrowdAware Node Rev1.1"
+			(project "HKU Thermal Node Rev1.1"
 				(path "/81bee566-7c30-408d-a7cb-e04c7c6916af"
 					(reference "C2")
 					(unit 1)

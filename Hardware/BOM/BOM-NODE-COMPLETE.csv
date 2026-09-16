@@ -1,5 +1,5 @@
 Reference,Qty per node,Category,Item,Manufacturer,Manufacturer Part Number,Mouser Number,Outsourced PCBA,Notes
-"PCB1","1","Fabricated PCB","CrowdAware Node Rev 1.1 carrier","Custom","Rev 1.1","","Bare-board fabrication","80 x 40 mm carrier; four M3 mounting holes"
+"PCB1","1","Fabricated PCB","HKU Thermal Node Rev 1.1 carrier","Custom","Rev 1.1","","Bare-board fabrication","80 x 40 mm carrier; four M3 mounting holes"
 "C1","1","Capacitor","100 nF 50 V X7R 1206 10%","KEMET","C1206C104K5RAC","80-C1206C104K5RAC","Yes - SMT","MLX90640 local decoupling"
 "C2","1","Capacitor","10 uF 10 V X5R 1206 10%","KEMET","C1206C106K8PACTU","80-C1206C106K8P","Yes - SMT","MLX90640 bulk decoupling"
 "R1,R2","2","Resistor","1 kOhm 0603 5%","YAGEO","SR0603JR-7T1KL","603-SR0603JR-7T1KL","Yes - SMT","SCL and SDA pull-ups to V_EXT"

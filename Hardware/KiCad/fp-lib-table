@@ -1,6 +1,6 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "IoT_Thermal")(type "KiCad")(uri "${KIPRJMOD}/IoT_Thermal.pretty")(options "")(descr "Project-local CrowdAware Rev1.1 footprints"))
+	(lib (name "IoT_Thermal")(type "KiCad")(uri "${KIPRJMOD}/IoT_Thermal.pretty")(options "")(descr "Project-local HKU Thermal Node Rev1.1 footprints"))
 	(lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad 10 standard SMD capacitor footprints"))
 	(lib (name "MountingHole")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/MountingHole.pretty")(options "")(descr "KiCad 10 standard mounting holes"))
 	(lib (name "Resistor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr "KiCad 10 standard SMD resistor footprints"))

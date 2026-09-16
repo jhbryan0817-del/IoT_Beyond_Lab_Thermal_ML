@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CrowdAware Node Rev1.1.kicad_pro",
+    "filename": "HKU Thermal Node Rev1.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -736,8 +736,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CrowdAware Node Rev1.1.kicad_sch",
-        "name": "CrowdAware Node Rev1.1",
+        "filename": "HKU Thermal Node Rev1.1.kicad_sch",
+        "name": "HKU Thermal Node Rev1.1",
         "uuid": "81bee566-7c30-408d-a7cb-e04c7c6916af"
       }
     ],
@@ -747,7 +747,7 @@
   "sheets": [
     [
       "81bee566-7c30-408d-a7cb-e04c7c6916af",
-      "CrowdAware Node Rev1.1"
+      "HKU Thermal Node Rev1.1"
     ]
   ],
   "text_variables": {},

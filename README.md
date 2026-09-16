@@ -12,11 +12,11 @@ We introduce the privacy-oriented occupancy inference system using a telemetry o
 
 ## Repository Structure
 
-- `Hardware/` — revised thermal-node carrier PCB, component specifications, assembly partition, and hardware lineage.
+- `Hardware/` — Rev 1.1 thermal-node carrier: sensor moved away from module heat, corrected MLX90640 power conditioning, regular enclosure-friendly mechanics, and I²C remapped to the Heltec V3 GPIO41/GPIO42 header pads to avoid reserved pins. Includes KiCad sources, local libraries, BOMs, and a first-prototype production checklist.
 
 ## Lineage and Acknowledgements
 
-Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). Attribution and a copy of the applicable licence are retained in `Hardware/`.
+Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). It keeps the original low-resolution thermal-node concept while improving thermal separation, decoupling, mechanics, source portability, and Heltec V3 pin compatibility. Attribution and a copy of the applicable licence are retained in `Hardware/`.
 
 ## About IoT Beyond Lab
 

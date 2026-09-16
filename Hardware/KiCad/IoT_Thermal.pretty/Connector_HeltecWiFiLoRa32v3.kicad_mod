@@ -66,7 +66,7 @@
 	)
 	(property ki_fp_filters "Connector*:*_2x??_*")
 	(sheetname "/")
-	(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+	(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line

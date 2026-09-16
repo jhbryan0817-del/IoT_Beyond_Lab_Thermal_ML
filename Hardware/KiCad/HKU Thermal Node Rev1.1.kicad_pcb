@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(title "CrowdAware Node Rev1.1")
+		(title "HKU Thermal Node Rev1.1")
 		(date "2026-09-16")
 		(rev "1.1")
 		(company "InnoWing IoT Team")
@@ -432,7 +432,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/34b06b15-8556-4be9-9cd3-d8af42c7213c")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -847,7 +847,7 @@
 		)
 		(path "/c81bdab2-5ee4-4df0-af49-b3ec58347ea2")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1219,7 +1219,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/75dbda75-6321-44b0-8411-d4662a3178a0")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1448,7 +1448,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f1a867f6-8245-499d-a831-e8c46c14b7b5")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1610,7 +1610,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/47d33ea7-601e-4e39-a216-9e4b20c1fd51")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1834,7 +1834,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/0ee5e0ac-ac72-4dbb-9ce1-bc9a8806af08")
 		(sheetname "/")
-		(sheetfile "CrowdAware Node Rev1.1.kicad_sch")
+		(sheetfile "HKU Thermal Node Rev1.1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2220,9 +2220,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J1-Pin_5-Pad5)")
+			(net "/SCL")
 			(pinfunction "Pin_5_5")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "a7335b10-37d4-493d-9686-0d960f7338ed")
 		)
 		(pad "6" thru_hole circle
@@ -2242,9 +2242,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J1-Pin_7-Pad7)")
+			(net "/SDA")
 			(pinfunction "Pin_7_7")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "9be7653f-98fc-4d7d-8702-3e96f033684b")
 		)
 		(pad "8" thru_hole circle
@@ -2396,9 +2396,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/SDA")
+			(net "unconnected-(J1-Pin_21-Pad21)")
 			(pinfunction "Pin_21_21")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ea16a522-6908-462a-a07d-949ab3c5746b")
 		)
 		(pad "22" thru_hole circle
@@ -2418,9 +2418,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/SCL")
+			(net "unconnected-(J1-Pin_23-Pad23)")
 			(pinfunction "Pin_23_23")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c53271ac-cda0-427a-b2a7-13c93ced720e")
 		)
 		(pad "24" thru_hole circle
@@ -2767,7 +2767,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HKU InnoWing IoT Team\n"
+	(gr_text "HKU IoT Beyond Lab\n"
 		(at 106.557 81.427 0)
 		(layer "F.SilkS")
 		(uuid "14f47d03-6fdf-4bf4-b0ed-e2686ea263e5")
@@ -2791,7 +2791,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "CrowdAware Node"
+	(gr_text "HKU Thermal Node"
 		(at 106.303 77.871 0)
 		(layer "F.SilkS")
 		(uuid "740d17cf-bd20-4eec-9d07-f61257bf8775")
@@ -3070,19 +3070,27 @@
 	)
 	(segment
 		(start 101 79.8)
-		(end 101 83.658)
+		(end 101 82.538)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/SDA")
 		(uuid "6fdd1f8a-6cba-481b-af00-1625b9bd7597")
 	)
 	(segment
-		(start 101 83.658)
-		(end 100.33 84.328)
+		(start 101 82.538)
+		(end 116.32 82.538)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/SDA")
 		(uuid "ba58bcc4-76b4-46a7-8dbd-ea9f406b7a2e")
+	)
+	(segment
+		(start 116.32 82.538)
+		(end 118.11 84.328)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/SDA")
+		(uuid "48b2a309-3f19-4aa4-b000-2a2a9102bcd2")
 	)
 	(segment
 		(start 98.298 75.946)
@@ -3150,19 +3158,43 @@
 	)
 	(segment
 		(start 96 75.946)
-		(end 96 82.538)
+		(end 96 81.3)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/SCL")
 		(uuid "6b45b366-5a8c-427b-bae6-4e724a052a0b")
 	)
 	(segment
-		(start 96 82.538)
-		(end 97.79 84.328)
+		(start 96 81.3)
+		(end 99.5 81.3)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/SCL")
 		(uuid "d6cadccb-aaf4-4c10-a30e-23a7d237e078")
+	)
+	(via
+		(at 99.5 81.3)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net "/SCL")
+		(uuid "1eb55d98-d238-4577-a8fe-caa1f35729ce")
+	)
+	(segment
+		(start 99.5 81.3)
+		(end 117.622 81.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCL")
+		(uuid "ea9ada44-7920-469f-8b9a-6f6de312f324")
+	)
+	(segment
+		(start 117.622 81.3)
+		(end 120.65 84.328)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCL")
+		(uuid "c90bd277-4c1d-46d9-b6e5-0e6dd355bacf")
 	)
 	(segment
 		(start 87.63 84.328)
