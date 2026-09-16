@@ -1,4 +1,4 @@
-# Edge Thermal Occupancy ML @ HKU by IoT Beyond Lab
+# Edge Thermal Occupancy ML @ HKU
 
 We introduce the privacy-oriented occupancy inference system using a telemetry of distributed 32 × 24 thermal nodes, which is used to train a model that accurately infers the availability of a specific area with unique context. Libraries at HKU, such as the Chi Wah Learning Commons, are unique in that there are no strictly defined seats. Availability is highly subjective due to many variables present. Therefore, the thermal matrix will be paired directly against the perceived availability score, which would be considered the ground truth. The goal is to create a system that is mature enough to provide useful qualitative information to students who are making decisions throughout their day.
 
@@ -18,3 +18,6 @@ We introduce the privacy-oriented occupancy inference system using a telemetry o
 
 Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). Attribution and a copy of the applicable licence are retained in `Hardware/`.
 
+## About IoT Beyond Lab
+
+Established in September 2026, the team is based in Innovation Wing at the University of Hong Kong. The mission is to build and **deploy** different IoT applications that will leave a lasting impact, hence inspiring the name "IoT Beyond Lab". Other than this thermal ML project, the team also partners with Chulalongkorn University (CSII) in Thailand to develop IoT-based solutions that mitigates flood-induced disaster impact.
