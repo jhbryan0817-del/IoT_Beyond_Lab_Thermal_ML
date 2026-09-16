@@ -1,36 +1,23 @@
 # Edge Thermal Occupancy ML @ HKU
 
-The current hardware is **HKU Thermal Node Rev 1.1**, a two-layer carrier for the Heltec WiFi LoRa 32 V3 and Melexis MLX90640 thermal-array sensor. It is intended for privacy-oriented, low-resolution occupancy sensing in HKU library spaces.
+We introduce the privacy-oriented occupancy inference system using a telemetry of distributed 32 × 24 thermal nodes, which is used to train a model that accurately infers the availability of a specific area with unique context. Libraries at HKU, such as the Chi Wah Learning Commons, are unique in that there are no strictly defined seats. Availability is highly subjective due to many variables present. Therefore, the thermal matrix will be paired directly against the perceived availability score, which would be considered the ground truth. The goal is to create a system that is mature enough to provide useful qualitative information to students who are making decisions throughout their day.
 
-## Current Rev 1.1 hardware
+## Target System Architecture
 
-| Property | Rev 1.1 definition |
-|---|---|
-| PCB | 80 × 40 mm, two copper layers, four M3 mounting holes |
-| Thermal sensor | MLX90640ESF-BAA-000-TU, 32 × 24 pixels, 110° × 75° field of view |
-| Controller/radio | Heltec WiFi LoRa 32 V3 |
-| Module connection | Two 1×18, 2.54 mm female socket strips |
-| I²C | SDA on GPIO41 / Heltec J3 pin 15 / carrier J1 pad 7; SCL on GPIO42 / Heltec J3 pin 16 / carrier J1 pad 5 |
-| Sensor power | Switchable 3.3 V `V_EXT`; GPIO36 active-low enable |
-| I²C pull-ups | `R1` and `R2`, 1 kΩ to `V_EXT` |
-| Sensor decoupling | `C1` 100 nF local decoupling and `C2` 10 µF bulk decoupling |
-| Factory-SMT components | `C1`, `C2`, `R1`, `R2` |
-| Manual components | MLX90640 `A1`, two socket strips represented by `J1`, Heltec module, antenna, and mechanics |
+- Each node captures low-resolution thermal frames within a defined zone.
+- The edge model maps thermal data directly to an availability estimate.
+- The node transmits a packet consisting of the zone identifier, normalized availability estimate, confidence value, timestamp, and system metadata.
+- LoRa provides node-to-server communication.
+- The server consolidates zone-level estimates for downstream display interfaces and services.
 
-## Changes from CrowdAware
+## Repository Structure
 
-| Rev 1.1 change | Reason |
-|---|---|
-| Moved the MLX90640 outside the Heltec module area | Reduces thermal contamination and gives the sensor a clearer optical and mechanical region. |
-| Replaced the original outline with an 80 × 40 mm rectangle and four positioned M3 holes | Provides a regular enclosure and mounting interface. |
-| Changed the local sensor decoupling to 100 nF plus 10 µF | Better matches the MLX90640 local power-decoupling requirement. |
-| Moved SDA/SCL pull-ups from always-on `3V3` to switchable `V_EXT` | Prevents pull-up current and possible back-powering while the sensor rail is off. |
-| Mapped SDA/SCL to GPIO41/GPIO42 and corrected the carrier connections to J1 pads 7/5 | Avoids the Heltec V3 reserved GPIO34/GPIO33 pins and matches the intended firmware mapping. |
-| Replaced the local `V_EXT` copper island with an explicit power trace | Makes the switched sensor-power connection deterministic. |
-| Corrected the Heltec connection to two 1×18 sockets | Matches the physical Heltec WiFi LoRa 32 V3 headers. |
-| Corrected component order codes and added project-local KiCad symbols and footprints | Keeps the specified parts accurate and the Rev 1.1 design self-contained. |
-| Renamed the board and silkscreen for the HKU application | Distinguishes this deployment-specific design from the upstream project. |
+- `Hardware/` — HKU Thermal Node Rev 1.1 carrier: MLX90640 thermal sensor positioned away from module heat, corrected local power conditioning, an 80 × 40 mm enclosure-friendly outline, and I²C mapped to Heltec V3 GPIO41/GPIO42 instead of reserved pins. Includes KiCad sources, project-local libraries, BOMs, and the retained hardware licence.
 
-## Lineage and licence
+## Lineage and Acknowledgements
 
-Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). Attribution is retained here, and the applicable licence is included in `Hardware/COPYING-HARDWARE-GPL-3.0.txt`.
+Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). It keeps the original low-resolution thermal-node concept while improving thermal separation, decoupling, mechanics, source portability, and Heltec V3 pin compatibility. Attribution and a copy of the applicable licence are retained in `Hardware/`.
+
+## About IoT Beyond Lab
+
+Established in September 2026, the team is based in Innovation Wing at the University of Hong Kong. The mission is to build and **deploy** different IoT applications that will leave a lasting impact, hence inspiring the name "IoT Beyond Lab". Other than this thermal ML project, the team also partners with Chulalongkorn University (CSII) in Thailand to develop IoT-based solutions that mitigates flood-induced disaster impact.
