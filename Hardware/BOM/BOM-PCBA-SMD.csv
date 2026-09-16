@@ -1,4 +1,5 @@
-Reference,Qty,Value,Manufacturer,Manufacturer Part Number,Mouser Number,Assembly
-"C1","1","100 nF 50 V X7R 1206 10%","KEMET","C1206C104K5RAC","80-C1206C104K5RAC","Factory SMT or hand solder"
-"C2","1","10 uF 10 V X5R 1206 10%","KEMET","C1206C106K8PACTU","80-C1206C106K8P","Factory SMT or hand solder"
-"R1,R2","2","1 kOhm 0603 5%","YAGEO","SR0603JR-7T1KL","603-SR0603JR-7T1KL","Factory SMT or hand solder"
+Reference,Qty,Value,Manufacturer,Manufacturer Part Number,Mouser Number,Assembly Partition
+"C1","1","100 nF 50 V X7R 1206 10%","KEMET","C1206C104K5RAC","80-C1206C104K5RAC","Factory SMT"
+"C2","1","10 uF 10 V X5R 1206 10%","KEMET","C1206C106K8PACTU","80-C1206C106K8P","Factory SMT"
+"R1,R2","2","1 kOhm 0603 5%","YAGEO","SR0603JR-7T1KL","603-SR0603JR-7T1KL","Factory SMT"
+
