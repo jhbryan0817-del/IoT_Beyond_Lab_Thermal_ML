@@ -1,17 +1,20 @@
 # IoT Beyond Lab — Thermal Occupancy ML
 
-Research and prototyping for privacy-oriented occupancy estimation using low-resolution thermal sensing, edge machine learning, and compact zone-level telemetry.
+Privacy-oriented occupancy estimation using 32 × 24 thermal sensing, edge machine learning, and zone-level telemetry for HKU learning spaces.
 
-The initial proof of concept targets the HKU Innovation Wing before a possible deployment study in the Chi Wah Learning Commons.
+## System architecture
 
-## Repository structure
+- Each node captures low-resolution thermal frames within a defined zone.
+- The edge model maps thermal data directly to an occupancy or availability estimate without producing identifiable visible-light imagery.
+- Node telemetry consists of the zone identifier, normalized availability estimate, confidence value, and system metadata.
+- LoRa provides node-to-server communication.
+- The server consolidates zone-level estimates for downstream display interfaces and services.
 
-- `Hardware/` — revised thermal-node carrier PCB, bills of materials, assembly boundary, and manufacturing notes.
-- Firmware, model-training, server, and interface components will be added as the prototype develops.
+## Repository contents
 
-## Current status
+- `Hardware/` — revised thermal-node carrier PCB, component specifications, assembly partition, and hardware lineage.
 
-Hardware Rev 1.1 is an **unvalidated prototype**. Its KiCad source has received structural checks, but ERC, DRC, copper-zone refill, physical fit checking, and a five-board prototype run are required before deployment.
+## Hardware lineage
 
-The hardware revision is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). Its attribution and licence copy are retained inside `Hardware/`.
+Hardware Rev 1.1 is derived from the GPL-3.0 [CrowdAware node](https://github.com/crowdaware-inno-wing-iot/crowdaware-node). Attribution and a copy of the applicable licence are retained in `Hardware/`.
 
