@@ -1,0 +1,519 @@
+(footprint "MLX90640ESF-BAA-000-TU"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.292901 -4.390375 180)
+		(layer "F.SilkS")
+		(uuid "625c18cf-337e-4112-a2dc-d1189150b79f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MLX90640ESF-BAA-000-TU"
+		(at 4.87 5.758 157.5)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29c774f3-2156-4545-8f5e-256bed48acff")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.melexis.com/en/documents/documentation/datasheets/datasheet-mlx90640"
+		(at 0 0 157.5)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07731826-fb29-41a1-a39d-ac473d13c086")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 157.5)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e4d497e-31d2-4b18-a32d-297d3adeea09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Melexis Technologies"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a4d6406-f04e-46aa-a334-770f9c355d03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "6.0 mm"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "351d176f-fd71-4530-a049-5ec405624e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "TO39_? FOV 110-4 Melexis"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1160faad-5e31-4943-9421-b2f513dbc360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a928c979-9f3c-45f0-b927-ccd21d220d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/MLX90640ESF-BAA-000-TU/Melexis/view-part/?ref=eda"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47f4a185-4450-4a06-acff-fc30e3b6101e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC-7351B"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc6b1fd4-9d2b-4398-9b96-7609e348d1cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "11"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6078b53b-bea6-4f37-9c43-349a11e1d882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLX90640ESF-BAA-000-TU/Melexis/view-part/?ref=snap"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ce49c3-d4e7-4ae0-97bd-eeb789358213")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "MLX90640ESF-BAA-000-TU"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17916dbf-247e-43c2-acab-75c40a364a3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2774325&manufacturer=Melexis Technologies&part_name=MLX90640ESF-BAA-000-TU&search_term=None"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0472bc48-9943-4153-8e64-3f44db378449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "32x24 thermal array, 110deg FOV"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d46e7a-d6f9-48a7-927c-200121e599ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7faabbba-12e8-4371-81a7-255fb732e2ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Melexis"
+		(at 0 0 157.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aac9135-a177-4e80-8dfb-434f1a2eafc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(units
+		(unit
+			(name "A")
+			(pins "4" "1" "2" "3")
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.428389 -4.817399)
+		(end -2.14271 -4.12772)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c87d2d6d-8c90-4f26-8d61-4184133d025c")
+	)
+	(fp_line
+		(start -1.68928 -5.12354)
+		(end -2.428389 -4.817399)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c3c4f33-9111-44de-9575-00a53ef70611")
+	)
+	(fp_line
+		(start -1.403609 -4.43387)
+		(end -1.68928 -5.12354)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c460faa-35d2-46fb-83b6-8cde93c2d975")
+	)
+	(fp_arc
+		(start -4.29604 1.779469)
+		(mid -4.368722 -1.593094)
+		(end -2.142711 -4.127721)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9441f2f6-d6b5-47e2-aef5-f021f4a5f853")
+	)
+	(fp_arc
+		(start -1.403609 -4.43387)
+		(mid 1.962729 -4.215754)
+		(end 4.29604 -1.77947)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3802eb95-4f3c-40f4-a4cb-8f21dfdf7de5")
+	)
+	(fp_arc
+		(start 1.779469 4.29604)
+		(mid -1.779484 4.296033)
+		(end -4.29604 1.779469)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c09fbde8-c697-4a76-a1f3-3ea313f83866")
+	)
+	(fp_arc
+		(start 4.29604 -1.779469)
+		(mid 4.296033 1.779484)
+		(end 1.779469 4.29604)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a398ff3d-2de4-4f6a-bd1e-92cf0dc14df8")
+	)
+	(fp_circle
+		(center -4.8 -2.2)
+		(end -4.700001 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bf026b10-70f5-46b1-a830-aead5c77b838")
+	)
+	(fp_line
+		(start -2.755029 -4.952699)
+		(end -2.45902 -4.23808)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42d482ca-f3ea-4de8-be3e-adfd8a02eb61")
+	)
+	(fp_line
+		(start -1.55398 -5.45018)
+		(end -2.755029 -4.952699)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce754a25-7c51-4344-b8fd-0511b56a3016")
+	)
+	(fp_line
+		(start -1.25798 -4.73556)
+		(end -1.55398 -5.45018)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38f90a91-b7bf-4444-83cf-4f55d5a243aa")
+	)
+	(fp_arc
+		(start -4.52701 1.87515)
+		(mid -4.641766 -1.570066)
+		(end -2.45902 -4.23808)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35006109-89ec-4cb2-9a45-361ff5be397e")
+	)
+	(fp_arc
+		(start -1.25798 -4.73556)
+		(mid 2.172007 -4.392399)
+		(end 4.52701 -1.87515)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "119026ab-acb5-4f1c-b4a1-576045d452b2")
+	)
+	(fp_arc
+		(start 1.87515 4.52701)
+		(mid -1.875148 4.52701)
+		(end -4.52701 1.87515)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4854b33a-90d1-460b-82a2-f0e4088633c5")
+	)
+	(fp_arc
+		(start 4.52701 -1.87515)
+		(mid 4.52701 1.875148)
+		(end 1.87515 4.52701)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59e14eac-c874-47b0-b05c-c7ff7b422b88")
+	)
+	(fp_line
+		(start -2.428389 -4.817399)
+		(end -2.14271 -4.12772)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe8f5f71-3804-4047-b5c4-1c51e1c152ec")
+	)
+	(fp_line
+		(start -1.68928 -5.12354)
+		(end -2.428389 -4.817399)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ce0538f-db9d-44b7-8daa-a883d1ecdd02")
+	)
+	(fp_line
+		(start -1.403609 -4.43387)
+		(end -1.68928 -5.12354)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "919392b2-cad0-4043-8bab-2fdbce72b4a1")
+	)
+	(fp_arc
+		(start -4.29604 1.779469)
+		(mid -4.368722 -1.593094)
+		(end -2.142711 -4.127721)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f299a6bf-6c21-42bd-ae65-98a8766f2026")
+	)
+	(fp_arc
+		(start -1.403609 -4.43387)
+		(mid 1.962729 -4.215754)
+		(end 4.29604 -1.77947)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc4ba287-7350-4cda-8c21-8c41be5c34f6")
+	)
+	(fp_arc
+		(start 1.779469 4.29604)
+		(mid -1.779484 4.296033)
+		(end -4.29604 1.779469)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cc48082-ff94-4e48-a339-6740c3469031")
+	)
+	(fp_arc
+		(start 4.29604 -1.779469)
+		(mid 4.296033 1.779484)
+		(end 1.779469 4.29604)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ebddf6a-c5cd-41c1-9556-3b41d0f043c1")
+	)
+	(fp_circle
+		(center -4.8 -2.2)
+		(end -4.700001 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "681dcd34-e968-436d-b5fe-1d12db602f16")
+	)
+	(pad "1" thru_hole rect
+		(at -2.064749 -2.064749 180)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SDA_1")
+		(pintype "bidirectional")
+		(solder_mask_margin 0.102)
+		(uuid "b7c91f16-252b-49a3-bfc5-071ad1351c7e")
+	)
+	(pad "2" thru_hole circle
+		(at -0.000001 2.919999 180)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "VDD_2")
+		(pintype "power_in")
+		(solder_mask_margin 0.102)
+		(uuid "6c40ff6b-39fd-4a01-a0f2-55b2248f0d66")
+	)
+	(pad "3" thru_hole circle
+		(at 2.064749 2.064749 135)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "GND_3")
+		(pintype "power_in")
+		(solder_mask_margin 0.102)
+		(uuid "1f56202c-6ec9-4853-a803-dfc55bedc39a")
+	)
+	(pad "4" thru_hole circle
+		(at 0.000001 -2.919999 157.5)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pinfunction "SCL_4")
+		(pintype "input")
+		(solder_mask_margin 0.102)
+		(uuid "995612ee-8200-4d55-9eb6-05f1d1348c91")
+	)
+	(embedded_fonts no)
+)

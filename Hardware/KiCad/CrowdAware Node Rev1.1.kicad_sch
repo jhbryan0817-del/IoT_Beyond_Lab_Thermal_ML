@@ -6,13 +6,13 @@
 	(paper "A5")
 	(title_block
 		(title "CrowdAware Node Rev1.1")
-		(date "2026-09-15")
+		(date "2026-09-16")
 		(rev "1.1")
 		(company "InnoWing IoT Team")
-		(comment 1 "Based on v1.0 by Ilo Japar; Rev1.1 thermal-layout update")
+		(comment 1 "Based on v1.0 by Ilo Japar; Rev1.1 thermal and routing update")
 	)
 	(lib_symbols
-		(symbol "MLX90640ESF-BAA-000-TU:MLX90640ESF-BAA-000-TU"
+		(symbol "IoT_Thermal:MLX90640ESF-BAA-000-TU"
 			(pin_names
 				(offset 1.016)
 			)
@@ -43,7 +43,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "MLX90640ESF-BAA-000-TU:TO292P930H600-4"
+			(property "Footprint" "IoT_Thermal:MLX90640ESF-BAA-000-TU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -320,7 +320,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MySymbols:C"
+		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -475,7 +475,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MySymbols:Conn_02x18_Odd_Even"
+		(symbol "IoT_Thermal:Heltec_WiFi_LoRa_32_V3_Headers"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -560,7 +560,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x18_Odd_Even_1_1"
+			(symbol "Heltec_WiFi_LoRa_32_V3_Headers_1_1"
 				(rectangle
 					(start -1.27 21.59)
 					(end 3.81 -24.13)
@@ -1490,7 +1490,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_30"
@@ -1544,7 +1544,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_33"
@@ -1580,7 +1580,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_35"
@@ -1619,7 +1619,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MySymbols:R"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2014,7 +2014,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This board for the most part relies on the Heltec WiFi LoRa 32(V3) development board,\nwhich in itself contains:\n- A built-in battery interface and BMS with USB charging\n- On-board LoRa and WiFi support\n- A GPIO-controlled +3V3 source V_EXT (High by default, disabled by driving GPIO36 low)\n- Good RF and low-power circuitry"
+	(text "This board relies on the Heltec WiFi LoRa 32(V3) development board, which provides:\n- A built-in battery interface and USB charging circuit\n- On-board LoRa and WiFi support\n- A GPIO-controlled +3V3 source V_EXT (active low: drive GPIO36 low to enable)\n- Integrated RF and low-power circuitry"
 		(exclude_from_sim no)
 		(at 19.05 24.13 0)
 		(effects
@@ -2214,13 +2214,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 66.04) (xy 154.94 66.04)
+			(xy 134.62 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07470cac-4964-4469-9894-71b97048f58b")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de45943-c05d-45c2-a628-cff72c288786")
 	)
 	(wire
 		(pts
@@ -2394,13 +2404,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 154.94 63.5)
+			(xy 116.84 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad246ed1-6204-4dbb-91a1-11f06381935f")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 154.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f59fa10-02e1-4b1d-bb74-149a0f4b6995")
 	)
 	(wire
 		(pts
@@ -2493,27 +2513,47 @@
 		(uuid "f59111bb-e294-4f8c-9e3f-d57687e51a83")
 	)
 	(label "SDA"
-		(at 148.59 66.04 0)
+		(at 144.78 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4f8f2ce2-696b-4d5e-a31a-82017283158c")
 	)
 	(label "SCL"
-		(at 148.59 63.5 0)
+		(at 144.78 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c74dcb2b-9235-4eac-9ecb-0df1fb14575d")
+	)
+	(label "SDA"
+		(at 152.4 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c74dcb2b-9235-4eac-9ecb-0df1fb14575d")
+		(uuid "9efcd33d-137f-4f98-bd4f-03439f6788b0")
+	)
+	(label "SCL"
+		(at 152.4 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f062a36f-46e2-4d4b-871f-eb4f000fe93d")
 	)
 	(symbol
-		(lib_id "MySymbols:Conn_02x18_Odd_Even")
+		(lib_id "IoT_Thermal:Heltec_WiFi_LoRa_32_V3_Headers")
 		(at 160.02 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -2543,7 +2583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Connector_HeltecWiFiLoRa32v3"
+		(property "Footprint" "IoT_Thermal:Connector_HeltecWiFiLoRa32v3"
 			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2705,7 +2745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MySymbols:C")
+		(lib_id "Device:C")
 		(at 39.37 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -2738,7 +2778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "IoT_Thermal:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 40.3352 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MySymbols:R")
+		(lib_id "Device:R")
 		(at 134.62 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -2897,7 +2937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k 0603 10%"
+		(property "Value" "1k 0603 5%"
 			(at 137.16 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,7 +2948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyLib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "IoT_Thermal:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.842 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3122,7 +3162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MySymbols:R")
+		(lib_id "Device:R")
 		(at 116.84 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3144,7 +3184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k 0603 10%"
+		(property "Value" "1k 0603 5%"
 			(at 119.38 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyLib:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "IoT_Thermal:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.062 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MLX90640ESF-BAA-000-TU:MLX90640ESF-BAA-000-TU")
+		(lib_id "IoT_Thermal:MLX90640ESF-BAA-000-TU")
 		(at 96.52 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -3559,7 +3599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:MLX90640ESF-BAA-000-TU"
+		(property "Footprint" "IoT_Thermal:MLX90640ESF-BAA-000-TU"
 			(at 96.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3782,7 +3822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MySymbols:C")
+		(lib_id "Device:C")
 		(at 62.23 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -3815,7 +3855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "IoT_Thermal:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.1952 68.58 0)
 			(hide yes)
 			(show_name no)
