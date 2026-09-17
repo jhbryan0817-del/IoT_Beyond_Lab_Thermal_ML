@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC Part #
+"100 nF 50 V X7R ±10%","C1","1206","C24497"
+"10 uF 50 V X5R ±10%","C2","1206","C13585"
+"1 kOhm ±1%","R1,R2","0603","C21190"
