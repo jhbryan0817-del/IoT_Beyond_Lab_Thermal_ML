@@ -7,7 +7,7 @@ Reference,Qty per node,Category,Item,Manufacturer,Manufacturer Part Number,Mouse
 "J1","2","Socket strip","1x18 straight female socket; 2.54 mm pitch","Samtec","SSW-118-01-G-S","200-SSW11801GS","No - manual THT","KiCad designator J1 represents both strips"
 "MOD1","1","Controller/radio module","WiFi LoRa 32 V3","Heltec Automation","Frequency variant to be confirmed","","No - plug in","Absent from carrier-board BOM by design"
 "ANT1","1","Antenna","LoRa antenna and matching IPEX/u.FL lead if required","To be confirmed","Match MOD1 frequency variant","","No - attach separately","Frequency matched to MOD1; provides the radio RF load"
-"BAT1","0 or 1","Battery","Protected 1-cell Li-ion/LiPo pack","To be confirmed","Connector and polarity to match MOD1","","No - attach separately","Optional external power source"
+"BAT1","1","Battery","Protected 1S LiPo pouch; 3.7 V nominal; 2000 mAh; 7.4 Wh; 1C","MakerFocus or equivalent","3450-1-2000-1S; SH1.25-2 plug","","No - attach separately","Built-in PCM; at least 1 A discharge capability; verify connector polarity against MOD1 before connection; use a certified pack for deployment"
 "ENC1","1","Mechanical","Custom enclosure with unobstructed thermal aperture","Custom","To be designed","","No","Sensor FOV requires an LWIR-transmissive aperture; ordinary plastic and glass are opaque to LWIR"
 "H1-H4","4","Mechanical","M3 standoffs and fasteners","To be confirmed","Length depends on enclosure","","No","Standoff length defined by enclosure stack-up"
 
