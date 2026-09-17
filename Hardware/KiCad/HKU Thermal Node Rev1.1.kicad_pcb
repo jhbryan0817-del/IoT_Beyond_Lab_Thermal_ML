@@ -11,7 +11,7 @@
 		(title "HKU Thermal Node Rev1.1")
 		(date "2026-09-16")
 		(rev "1.1")
-		(company "InnoWing IoT Team")
+		(company "IoT Beyond Lab")
 		(comment 1 "Based on v1.0 by Ilo Japar; Rev1.1 thermal and routing update")
 	)
 	(layers
