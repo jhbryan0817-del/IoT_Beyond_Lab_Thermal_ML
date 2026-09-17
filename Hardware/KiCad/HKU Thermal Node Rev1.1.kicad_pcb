@@ -2755,7 +2755,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev 1.1"
+	(gr_text "Rev 1.1 based on CrowdAware"
 		(at 106.557 79.649 0)
 		(layer "F.SilkS")
 		(uuid "79695f38-78d9-491b-8c72-ade86f989430")
@@ -2767,7 +2767,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HKU IoT Beyond Lab\n"
+	(gr_text "HKU Innovation Wing IoT Beyond Lab"
 		(at 106.557 81.427 0)
 		(layer "F.SilkS")
 		(uuid "14f47d03-6fdf-4bf4-b0ed-e2686ea263e5")
@@ -2791,7 +2791,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "HKU Thermal Node"
+	(gr_text "Thermal Node Occupancy ML"
 		(at 106.303 77.871 0)
 		(layer "F.SilkS")
 		(uuid "740d17cf-bd20-4eec-9d07-f61257bf8775")
@@ -2804,7 +2804,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Designed by Ilo Japar"
+	(gr_text "Designed by Jungheon Kwak based on CrowdAware v1.0"
 		(at 127.385 64.663 0)
 		(layer "B.SilkS")
 		(uuid "56dfe8c3-3f69-4885-add9-4ef420d0534e")

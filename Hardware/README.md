@@ -31,6 +31,6 @@ Rev 1.1 is the current carrier-board design for a Heltec WiFi LoRa 32 V3 and MLX
 | Module sockets corrected from 1×20 to 1×18 | Matches the Heltec WiFi LoRa 32 V3 pin count and footprint. |
 | MLX90640 and passive order codes corrected | Aligns the design with the specified sensor package and active component selections. |
 | Project-local symbols and footprints added | Keeps the Rev 1.1 KiCad source portable and internally consistent. |
-| Board title changed to `HKU Thermal Node` with `HKU IoT Beyond Lab` identification | Tailors the carrier to the HKU deployment while preserving the upstream acknowledgement. |
+| Silkscreen identifies `Thermal Node Occupancy ML`, Rev 1.1, HKU Innovation Wing IoT Beyond Lab, and its CrowdAware basis | Tailors the carrier to the HKU deployment while preserving upstream credit on the board. |
 
 Rev 1.1 is derived from the GPL-3.0 CrowdAware node. The full acknowledgement is in the repository-level `README.md`, and the retained licence is `COPYING-HARDWARE-GPL-3.0.txt`.
