@@ -1,3 +1,5 @@
+# Historical Rev A builder. For current Rev B, open HKU-thermal-enclosure.f3d.
+# To reproduce from scratch: build Rev A, then run Revise-enclosure-in-Fusion.py once.
 import adsk.core, adsk.fusion, math, json, os
 
 OUT = r'C:/Users/jhbryan/Documents/Codex/2026-09-23/https-github-com-jhbryan0817-del-iot-4/outputs'

@@ -1,35 +1,56 @@
 {
-  "battery-tray.stl": {
-    "triangles": 556,
-    "nonmanifold_edges": 0,
-    "inconsistent_edge_winding": 0,
-    "mesh_volume_mm3": 1179.610056428192,
-    "dimensions_mm": [
-      39.599999999999994,
-      31.799999999999997,
-      2.799999999999997
-    ]
+  "main-housing": {
+    "triangles": 9528,
+    "bounds_mm": [
+      [
+        -8.4,
+        -2.5,
+        -11.8
+      ],
+      [
+        88.4,
+        42.5,
+        25.0
+      ]
+    ],
+    "volume_mm3": 29568.789693870105,
+    "watertight": true,
+    "consistent_winding": true
   },
-  "front-shell.stl": {
-    "triangles": 8074,
-    "nonmanifold_edges": 0,
-    "inconsistent_edge_winding": 0,
-    "mesh_volume_mm3": 9976.459755309646,
-    "dimensions_mm": [
-      85.0,
-      45.0,
-      10.850000000000001
-    ]
+  "front-lid": {
+    "triangles": 7784,
+    "bounds_mm": [
+      [
+        -8.4,
+        -4.0,
+        23.0
+      ],
+      [
+        88.4,
+        44.0,
+        27.4
+      ]
+    ],
+    "volume_mm3": 10539.602180349726,
+    "watertight": true,
+    "consistent_winding": true
   },
-  "rear-shell.stl": {
-    "triangles": 4100,
-    "nonmanifold_edges": 0,
-    "inconsistent_edge_winding": 0,
-    "mesh_volume_mm3": 18961.48676884643,
-    "dimensions_mm": [
-      85.0,
-      45.0,
-      25.0
-    ]
+  "rear-lid": {
+    "triangles": 1996,
+    "bounds_mm": [
+      [
+        -8.4,
+        -4.0,
+        -14.2
+      ],
+      [
+        88.4,
+        44.0,
+        -9.8
+      ]
+    ],
+    "volume_mm3": 10801.265656483332,
+    "watertight": true,
+    "consistent_winding": true
   }
 }

@@ -12,6 +12,8 @@ We introduce the privacy-oriented occupancy inference system using a telemetry o
 
 ## Repository Structure
 
+- `Thermal_CAD/` — Rev B Fusion enclosure with a flat front, protruding thermal sensor, rear access for a 50 × 40 × 8 mm 2000 mAh battery, locating lid collars, and independent direct-thread M3 mounts. Includes three printable STL parts, STEP exports, previews and CAD/mesh checks. See [assembly notes](Thermal_CAD/Design-and-assembly-notes.md).
+
 - `Hardware/` — HKU Thermal Node Rev 1.1 carrier: MLX90640 thermal sensor positioned away from module heat, corrected local power conditioning, an 80 × 40 mm enclosure-friendly outline, and I²C mapped to Heltec V3 GPIO41/GPIO42 instead of reserved pins. Includes KiCad sources, project-local libraries, BOMs, and the retained hardware licence.
 
 ## Lineage and Acknowledgements
