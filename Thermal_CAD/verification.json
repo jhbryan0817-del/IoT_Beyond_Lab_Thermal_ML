@@ -1,0 +1,65 @@
+{
+  "design": "HKU IoT Beyond Lab thermal node enclosure Rev A",
+  "envelope_mm": [
+    85,
+    45,
+    33.5
+  ],
+  "sensor_nose_height_mm": 29.5,
+  "parts": [
+    {
+      "name": "01 Rear shell - PETG",
+      "solid": true,
+      "volume_mm3": 18971.87903713168,
+      "min_mm": [
+        -2.5,
+        -2.5,
+        0.0
+      ],
+      "max_mm": [
+        82.5,
+        42.5,
+        25.0
+      ]
+    },
+    {
+      "name": "02 Front shell - engraved",
+      "solid": true,
+      "volume_mm3": 9979.574502325255,
+      "min_mm": [
+        -2.5,
+        -2.5,
+        22.650000000000002
+      ],
+      "max_mm": [
+        82.5,
+        42.5,
+        33.5
+      ]
+    },
+    {
+      "name": "03 Removable insulated battery tray",
+      "solid": true,
+      "volume_mm3": 1179.6232387171738,
+      "min_mm": [
+        9.2,
+        4.1,
+        24.85
+      ],
+      "max_mm": [
+        48.8,
+        35.9,
+        27.650000000000002
+      ]
+    }
+  ],
+  "warnings": [],
+  "interferences": 0,
+  "thermal_FOV_check": {
+    "sample_points": 12312,
+    "collisions": 0,
+    "minimum_lens_z_mm": 28.05,
+    "radial_slope": 1.6212333069741498,
+    "method": "Conservative circular bound of 110 x 75 deg rectangular FOV plus 1.35 mm optical aperture radius; sampled every 0.1 mm height, 5 degrees azimuth and 3 radial fractions. Nominal CAD geometry only."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "battery-tray.stl": {
+    "triangles": 556,
+    "nonmanifold_edges": 0,
+    "inconsistent_edge_winding": 0,
+    "mesh_volume_mm3": 1179.610056428192,
+    "dimensions_mm": [
+      39.599999999999994,
+      31.799999999999997,
+      2.799999999999997
+    ]
+  },
+  "front-shell.stl": {
+    "triangles": 8074,
+    "nonmanifold_edges": 0,
+    "inconsistent_edge_winding": 0,
+    "mesh_volume_mm3": 9976.459755309646,
+    "dimensions_mm": [
+      85.0,
+      45.0,
+      10.850000000000001
+    ]
+  },
+  "rear-shell.stl": {
+    "triangles": 4100,
+    "nonmanifold_edges": 0,
+    "inconsistent_edge_winding": 0,
+    "mesh_volume_mm3": 18961.48676884643,
+    "dimensions_mm": [
+      85.0,
+      45.0,
+      25.0
+    ]
+  }
+}
